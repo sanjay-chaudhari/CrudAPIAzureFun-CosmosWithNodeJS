@@ -2,7 +2,7 @@
 const { v4: uuidv4 } = require("uuid");
 
 /* use the Cosmos DB connection string you copied ealier and replace in the `url` variable */
-const url = "mongodb://afapi:OEdAEDPEnTf8lITvLJnPHZSIHKp4BWCGQgv9CqjCGpa0N5fjdT3P33pMcJg7xGibamd34bWglyWGsZ4kwiY9LA==@afapi.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&maxIdleTimeMS=120000&appName=@afapi@";
+const url = "";
 const client = new MongoClient(url);
 
 
